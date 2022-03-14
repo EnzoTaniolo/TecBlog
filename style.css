@@ -1,0 +1,54 @@
+
+body{
+    font: 16px "trebuchet MS" , helvetica , sans-serif ;
+    background: rgb(235, 233, 233);
+}
+
+/*
+layout
+*/
+#cabecalho{
+    background: #f7b600;
+    text-align: center;
+}
+
+#Logo{
+    font-size: 1.5em;
+    color: gray;
+}
+
+#menu{
+    font-size: 20px;  
+}
+
+#menu, #logo{
+    padding: 10px;
+}
+/*
+layout
+*/
+/*
+---------------------
+Formataçoes
+*/
+a{ 
+    margin: 10px;
+    color: white;
+    text-decoration: none; 
+}
+
+.branco{
+    color: white;
+}
+
+a:link, a:visited{
+    color: #fff;
+}
+
+a:hover{
+    color: #f7b600;
+    background: #fff;
+}
+/*
+Formataçoes
+*/
