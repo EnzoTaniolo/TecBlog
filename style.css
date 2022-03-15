@@ -10,12 +10,10 @@ layout
 #cabecalho{
     background: #f7b600;
     text-align: center;
+    border:1px solid #f7b600;
 }
 
-#Logo{
-    font-size: 1.5em;
-    color: gray;
-}
+
 
 #menu{
     font-size: 20px;  
@@ -23,32 +21,107 @@ layout
 
 #menu, #logo{
     padding: 10px;
+    font-size: 20px;
 }
+
+#areaprincipal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#postagens{
+   width: 660px;
+    float: left;
+}   
+
+#arealateral{
+    width: 240px;
+    float: right;
+}
+
+.post{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#arealateral, #postagens{
+    background: white;
+}
+
+#rodape{
+    background: green;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+.conteudolateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#arealateral{
+
+}
+
 /*
 layout
 */
 /*
----------------------
 Formataçoes
 */
-a{ 
-    margin: 10px;
-    color: white;
-    text-decoration: none; 
-}
 
 .branco{
     color: white;
 }
 
-a:link, a:visited{
+h1{
+        font-size: 2.5em;
+        color: #4e4e4e;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+#cabecalho a{ 
+    margin: 10px;
+    color: white;
+    text-decoration: none; 
+}
+
+#cabecalho a:link, #cabecalho a:visited{
     color: #fff;
 }
 
-a:hover{
+#cabecalho a:hover{
     color: #f7b600;
     background: #fff;
 }
+#cabecalho:a{ 
+    color: white;
+    text-decoration: none; 
+}
+a{
+    text-decoration: none;
+}
+    
+a:link,a:visited{
+        color: #f7b600;
+    }
+    
+a:hover{
+      text-decoration: underline;
+   }
 /*
-Formataçoes
+Formataçoes 
 */
