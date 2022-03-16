@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 
 body{
-    font: 16px "trebuchet MS" , helvetica , sans-serif ;
+    font: 1em "trebuchet MS" , helvetica , sans-serif ;
     background: rgb(235, 233, 233);
 }
 
@@ -11,6 +17,7 @@ layout
     background: #f7b600;
     text-align: center;
     border:1px solid #f7b600;
+    padding: 15px;
 }
 
 
@@ -30,24 +37,29 @@ layout
     padding: 15px;
 }
 
+#arealateral, .post{
+    background: white;
+}
+
 #postagens{
    width: 660px;
     float: left;
+    background: rgb(235, 233, 233);
 }   
 
 #arealateral{
     width: 240px;
     float: right;
+    background: rgb(235, 233, 233);
 }
 
 .post{
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+   
 }
 
-#arealateral, #postagens{
-    background: white;
-}
+
 
 #rodape{
     background: green;
@@ -63,9 +75,9 @@ layout
     margin-bottom: 20px;
 }
 
-#arealateral{
+/*#arealateral{
 
-}
+}*/
 
 /*
 layout
@@ -122,6 +134,14 @@ a:link,a:visited{
 a:hover{
       text-decoration: underline;
    }
+   .data{
+    font-size: 0.8em;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC
+
+}
 /*
 Formataçoes 
 */
